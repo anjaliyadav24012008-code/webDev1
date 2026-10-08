@@ -1,0 +1,57 @@
+header{
+    background-color: aqua;
+    padding:20px,30px;
+    border:4px dotted black;
+    text-align:centre;
+    margin:20px;
+}
+a:visited{
+    color:rgb(0, 128, 90);
+}
+
+a:hover{
+    color:hotpink;
+}
+
+
+a:focus{
+    color:rgba(255, 0, 0, 0.982);
+}
+article{
+    border:6px double pink;
+    margin:20px 20px;
+    padding:20px;
+}
+p::first-letter{
+    font-size:25px;
+    color:rgb(14, 90, 243);
+}
+#para{
+  background-color:rgb(10, 164, 72);
+  border:4px solid rgba(8, 124, 225, 0.595);
+  margin:20px;
+  padding:20px;
+}
+.paras{
+    border:2px solid black;
+    padding:20px;
+    margin:-10px;
+    background-color: antiquewhite;
+    color:rgb(20, 107, 184);
+}
+video{
+    height:500px;
+    width:400px;
+}
+a[target]{
+    background-color: rgba(238, 13, 103, 0.216);
+
+}
+footer{
+    background-color: beige;
+    color:rgb(13, 140, 225);
+    font-size:xx-large;
+    border:4px dashed black;
+    margin:20px;
+    padding:20px 30px;
+}
