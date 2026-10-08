@@ -55,9 +55,3 @@ footer{
     margin:20px;
     padding:20px 30px;
 }
-/* *{
-    margin:0;
-} */
- *, *::before, *::after {
-  box-sizing: border-box;
-}
