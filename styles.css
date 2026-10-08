@@ -54,4 +54,11 @@ footer{
     border:4px dashed black;
     margin:20px;
     padding:20px 30px;
+<<<<<<< HEAD
 }
+=======
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+>>>>>>> f083fca318ee8e082f7d4e09d166268058bc18ad
