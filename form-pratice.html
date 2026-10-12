@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form>
+     <label for="names">username</label>
+<input type="text" name="name" id="names" placeholder="default">
+<br>
+<label for="pass">password</label>
+<input type="password" name="password" id="pass">
+<br>
+<label for="email">email</label>
+<input type="email" name="email" id="email">
+<br>
+<label for="numbers">number</label>
+<input type="number" name="number" id="numbers" >
+<br>
+<h5>select the option</h5>
+<label for="checkbox">checkbox1</label>
+<input type="checkbox" name="checkbox" id="checkbox">
+<label for="checkbox1">checkbox2</label>
+<input type="checkbox" name="checkbox" id="checkbox1">
+<label for="checkbox2">checkbox3</label>
+<input type="checkbox" name="checkbox" id="checkbox2">
+
+<br>
+<label for="radio">radio1</label>
+<input type="radio" name="radio" id="radio">
+<label for="radio2">radio2</label>
+<input type="radio" name="radio" id="radio2">
+<label for="radio3">radio3</label>
+<input type="radio" name="radio" id="radio3">
+<br>
+<label for="file">file</label>
+<input type="file" name="file" id="file">
+<br>
+<label for="date">date</label>
+<input type="date" name="date" id="date">
+<br>
+
+<hr>
+ <button type="submit">login</button> 
+
+  <label for="country">select the country</label>
+<select name="country" id="country" required>
+    <option value="" disabled selected>Select country</option>
+
+   <option value="">select the country</option> 
+  <option value="usa">United States</option>
+    <option value="canada">Canada</option>
+    <option value="uk">United Kingdom</option>
+</select> 
+
+
+  <button type="submit">Submit</button>  
+
+  <!-- textarea -->
+ <label for="feedback">Give your feedback here</label>
+<br>
+<textarea
+ name="feedback" 
+ id="feedback"
+rows="3"
+placeholder="write your feedback here"
+required>
+</textarea>
+<button type="submit">Submit</button>  
+
+<!-- filedset -->
+ <fieldset>
+ <legend>personal information</legend>
+
+<label for="fName">First Name:</label>
+    <input type="text" id="fName" name="firstName" required />
+
+    <label for="lName">Last Name:</label>
+    <input type="text" id="lName" name="lastName" required />
+
+</fieldset>
+ <fieldset>
+
+    <legend>Contact Information</legend>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required />
+
+  </fieldset> 
+<input type="tel" name="phone" />
+<input type="number" name="quantity" />
+<button type="submit">Click me</button>
+<input type="color" name="color" />
+
+
+    </form>
+</body>
+</html>
