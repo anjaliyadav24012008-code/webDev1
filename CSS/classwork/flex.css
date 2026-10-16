@@ -1,0 +1,17 @@
+.cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:blue;
+    margin:50px;
+    padding:20px;
+}
+.cont div{
+background-color:yellow ;
+height:100px;
+width:100px;
+font-size: 25px;
+margin:10px;
+padding:10px;
+text-align: center;
+}
