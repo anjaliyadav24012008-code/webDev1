@@ -1,0 +1,49 @@
+div{
+            width:300px;
+            height:300px;
+            border:2px solid black;
+            background-color: aqua;
+            transform: translate(25px,25px);
+            animation-name: myanimation;
+            animation-duration: 5s;
+            position:relative;
+            border-radius: 10px;
+            text-align:center;
+        }
+        .hello{
+            width:300px;
+            height:300px;
+            border:2px solid black;
+            background-color: rgb(35, 206, 29);
+            transform: translate(250px,25px);
+            animation-name: animation;
+            animation-duration: 5s;
+            position:relative;
+            border-radius: 50px;
+            text-align:center;
+        }
+          @keyframes animation{
+             0% {background-color: antiquewhite; left:10px;top:0px;}
+             20% {background-color: blue;left:200px;top:0px;}
+              40% {background-color: rgb(212, 41, 15);left:200px;top:200px;}
+               70% {background-color: rgb(11, 200, 162);left:400px;top:200px;}
+                90% {background-color: rgb(220, 9, 239);left:0px;top:150px;} 
+        }
+        @keyframes myanimation{
+            /* from{background-color: aqua;}
+            to {background-color: bisque;}
+           from{font-size: 16px;}
+            to{font-size: 30px;} 
+            0% {background-color: antiquewhite; left:10px;top:0px;}
+             20% {background-color: blue;left:200px;top:0px;}
+              40% {background-color: rgb(212, 41, 15);left:200px;top:200px;}
+               70% {background-color: rgb(11, 200, 162);left:400px;top:200px;}
+                90% {background-color: rgb(220, 9, 239);left:0px;top:150px;} */
+                            from{font-size: 16px;}
+            to{font-size: 30px;} 
+
+            0% {background-color: antiquewhite; left:0px;top:0px;}
+             25% {background-color: blue;left:0px;top:200px;}
+                75% {background-color: rgb(212, 41, 15);left:500px;top:200px;}
+              100% {background-color: rgb(212, 41, 15);left:500px;top:500px;}
+        }
